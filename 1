@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+class Karyawan{
+		public :
+			int nik;
+			string nama;
+			float gajibulanan;
+			void printData(){
+				cout<<"NIK   \t= "<<nik<<endl;
+				cout<<"Nama   \t= "<<nama<<endl;
+				cout<<"Gaji bulanan   \t= "<<gajibulanan<<endl;
+			}
+   };
+	int main(){
+		Karyawan paijo = {190302123,"paijo",3};
+		Karyawan jono = {190302124,"jono",2};
+		
+		paijo.printData();
+		jono.printData();
+		return 0;
+	}
